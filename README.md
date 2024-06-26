@@ -7,5 +7,5 @@ The goal of the project is to:
 - Learn the basics of MM
 - Make the following features:
 *The whole theme of the mod is these stones that one can make a potion from. The potion makes you invoulnarable to damage for a few seconds, but with a twist.
-The so-called shield from the potion brakes when hit an spefic amount of times. The amout is determined by the level of the potion. Basicly, only quantity matters if
+The so-called shield from the potion brakes when hit a spefic amount of times. The amout is determined by the level of the potion. Basicly, only quantity matters if
 you want to break the 'defence' of the potion.*
