@@ -1,7 +1,7 @@
 # Stargaze
 Not my first try at Minecraft modding, but the first one with a github rep.
 Oh please, go easy on me the god of minecraft modding.
-Project includes some sprites for items, blocks etc.
+Project includes some textures for items, blocks etc.
 The goal of the project is to:
 - Learn Java
 - Learn the basics of MM
