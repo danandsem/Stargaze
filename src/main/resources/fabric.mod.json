@@ -3,20 +3,23 @@
 	"id": "stargaze",
 	"version": "${version}",
 	"name": "Stargaze",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Watch the stars and try modding for the first time! By Flo",
 	"authors": [
-		"Me!"
+		"Flo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/stargaze/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.flo.stargaze.Stargaze"
+		],
+		"client": [
+			"net.flo.stargaze.StargazeClient"
 		],
 		"fabric-datagen": [
 			"net.flo.stargaze.StargazeDataGenerator"
