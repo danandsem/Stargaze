@@ -2,6 +2,7 @@ package net.flo.stargaze.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.flo.stargaze.Stargaze;
+import net.flo.stargaze.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -15,7 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CLEARANCEJADE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CLEARANCEJADE);
                         entries.add(ModItems.POLISHEDJADE);
-
+                        entries.add(ModBlocks.JADE_BLOCK);
 
 
                     }).build());

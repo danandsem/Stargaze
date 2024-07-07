@@ -2,6 +2,7 @@ package net.flo.stargaze;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.flo.stargaze.block.ModBlocks;
 import net.flo.stargaze.item.ModItemGroups;
 import net.flo.stargaze.item.ModItems;
 import net.minecraft.item.Item;
@@ -16,6 +17,7 @@ public class Stargaze  implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
