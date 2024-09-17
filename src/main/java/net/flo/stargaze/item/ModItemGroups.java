@@ -17,7 +17,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CLEARANCEJADE);
                         entries.add(ModItems.POLISHEDJADE);
                         entries.add(ModBlocks.JADE_BLOCK);
-
+                        entries.add(ModBlocks.RAW_JADE_BLOCK);
 
                     }).build());
     public static void registerItemGroups(){

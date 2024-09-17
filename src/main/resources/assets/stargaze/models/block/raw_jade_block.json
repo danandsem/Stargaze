@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "stargaze:block/raw_jade_block"
+  }
+}
